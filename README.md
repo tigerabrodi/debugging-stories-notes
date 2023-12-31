@@ -45,3 +45,9 @@
 `NODE_OPTIONS='--inspect-brk' next dev`
 
 https://www.builder.io/blog/debug-nodejs
+
+# NODE inspect
+
+When setting a debugger in a function, you may keep getting into that debugger. To know when it is the right time, you can use conditional debugger. If you do not know the values, then you can use Watch in the chrome dev tools to see the values to get a better idea of what you want to conditionally log.
+
+To see the value during runtime, hover over it.
